@@ -13,6 +13,7 @@ import { JamefRodoviário } from "./transportadoras/jamef/jamef-rodoviario";
 useContainer(Container);
 
 const app = createExpressServer({
+  cors: true,
   controllers: [CotaçãoController],
 });
 
