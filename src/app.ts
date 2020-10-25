@@ -16,7 +16,10 @@ const app = createExpressServer({
   controllers: [CotaçãoController],
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3001);
+app.get("/", function (req, res) {
+  res.send("Api running");
+});
 
 Container.import([
   BraspressAereo,
@@ -24,5 +27,5 @@ Container.import([
   CorreiosPac,
   CorreiosSedex,
   JamefAereo,
-  JamefRodoviário
+  JamefRodoviário,
 ]);

@@ -7,11 +7,11 @@ module.exports =  {
       maoPropria: false,
       modos: {
         sedex: {
-          habilitado: false,
+          habilitado: true,
           codigo: "04014",
         },
         pac: {
-          habilitado: false,
+          habilitado: true,
           codigo: "04510",
         },
       },
