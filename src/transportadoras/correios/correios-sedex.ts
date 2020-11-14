@@ -25,7 +25,7 @@ export class CorreiosSedex implements Transportadora {
         config.transportadoras.correios.modos.sedex.codigo,
         config.transportadoras.correios.codigo,
         config.transportadoras.correios.senha,
-        'SEDEX'
+        config.transportadoras.correios.modos.sedex.nome,
       )
     );
   }

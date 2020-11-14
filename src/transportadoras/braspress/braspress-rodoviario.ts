@@ -22,8 +22,7 @@ export class BraspressRodoviário implements Transportadora {
         config.transportadoras.braspress.modos.rodoviario.modal,
         config.transportadoras.braspress.token,
         config.transportadoras.braspress.modos.rodoviario.tipo,
-        'braspress',
-        'rodoviario'
+        config.transportadoras.braspress.modos.rodoviario.nome,
       )
     );
   }

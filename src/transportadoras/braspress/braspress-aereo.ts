@@ -22,8 +22,7 @@ export class BraspressAereo implements Transportadora {
         config.transportadoras.braspress.modos.aereo.modal,
         config.transportadoras.braspress.token,
         config.transportadoras.braspress.modos.aereo.tipo,
-        'braspress',
-        'aereo'
+        config.transportadoras.braspress.modos.aereo.nome,
       )
     );
   }

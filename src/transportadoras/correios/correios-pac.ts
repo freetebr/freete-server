@@ -25,7 +25,7 @@ export class CorreiosPac implements Transportadora {
         config.transportadoras.correios.modos.pac.codigo,
         config.transportadoras.correios.codigo,
         config.transportadoras.correios.senha,
-        'PAC'
+        config.transportadoras.correios.modos.pac.nome,
       )
     );
   }

@@ -1,5 +1,7 @@
+import freeteConfig from "../../../../freete.config";
+
 export class CorreiosConfiguração {
-  public readonly transportadora = 'Correios';
+  public readonly transportadora = freeteConfig.transportadoras.correios.nome;
 
   constructor(
     public readonly mãoPrópria: boolean,

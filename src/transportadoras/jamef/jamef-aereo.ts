@@ -22,7 +22,7 @@ export class JamefAereo implements Transportadora {
         config.transportadoras.jamef.usuario,
         config.transportadoras.jamef.modos.aereo.tipo,
         config.transportadoras.jamef.modos.aereo.segmento,
-        "aereo"
+        config.transportadoras.jamef.modos.aereo.nome
       )
     );
   }

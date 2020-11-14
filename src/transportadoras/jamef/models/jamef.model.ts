@@ -1,5 +1,7 @@
+import freeteConfig from "../../../../freete.config";
+
 export class JamefConfiguração {
-  public readonly transportadora = 'JAMEF';
+  public readonly transportadora = freeteConfig.transportadoras.jamef.nome;
 
   constructor(
     public readonly usuario: string,

@@ -22,7 +22,7 @@ export class JamefRodoviário implements Transportadora {
         config.transportadoras.jamef.usuario,
         config.transportadoras.jamef.modos.rodoviario.tipo,
         config.transportadoras.jamef.modos.rodoviario.segmento,
-        "rodoviario"
+        config.transportadoras.jamef.modos.rodoviario.nome,
       )
     );
   }
